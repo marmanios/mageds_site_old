@@ -19,7 +19,7 @@ const EngProjects = [{
      key: 0,
      popUpContent:
           <div>
-               <h1>Project Name - Get a Grip</h1>
+               <h1>Get a Grip</h1>
                <h3 >Engineer 1P13</h3>
                <p >
                     The lack of sufficient and reliable healthcare across Canada is an all too familiar problem that shortens the country’s life expectancy.
@@ -39,7 +39,7 @@ const EngProjects = [{
      key: 1,
      popUpContent:
           <div>
-               <h1>Project Name - There Is a Recyclable Among Us</h1>
+               <h1>There Is a Recyclable Among Us</h1>
                <h3>Engineer 1P13</h3>
                <p>
                     Sustainability has become a vital conversation today, urging businesses and consumers to make environmentally friendly decisions. Today, countless innovative measures are implemented by computer programs to help decrease individuals’ carbon footprint.
@@ -58,7 +58,7 @@ const EngProjects = [{
      key: 2,
      popUpContent:
           <div>
-               <h1>Project Name - Power in Community</h1>
+               <h1>Power in Community</h1>
                <h3>Engineer 1P13</h3>
                <p>
                     In this project we were introduced a client and their problems.

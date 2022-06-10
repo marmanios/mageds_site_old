@@ -20,26 +20,24 @@ const Footer = () => {
      return (
           <div className="Footer">
                {timeOut && <EmailPopUp/>}
-               <div className="Socials__Message">
-                    Reach Out!
-               </div>
+               
                <div className="Socials__Buttons_Container">
                     <div className="Socials__Button">
                          <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/maged-armanios/">
-                              <img alt="LinkedIN-Logo" src={LinkedINLogo} />
+                              <img className="Socials__Image" alt="LinkedIN-Logo" src={LinkedINLogo} />
                          </a>
 
                     </div>
                     <div className="Socials__Button">
                          <a target="_blank" rel="noreferrer" href="https://www.instagram.com/maged_armanios/">
-                              <img alt="Insta-Logo" src={InstaLogo} />
+                              <img className="Socials__Image" alt="Insta-Logo" src={InstaLogo} />
                          </a>
 
 
                     </div>
                     <div className="Socials__Button">
                          <a href="www.google.com" rel="noreferrer" onClick={onClickHandler}>
-                              <img alt="Email-Logo" target="_blank" src={MailLogo} />
+                              <img className="Socials__Image" alt="Email-Logo" target="_blank" src={MailLogo} />
                          </a>
                          
                     </div>

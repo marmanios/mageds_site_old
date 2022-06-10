@@ -3,7 +3,7 @@
      display: flex;
      justify-content: center;
      font-size: 4rem;
-     margin-top: 1.4rem;
+     margin-top: 1.1rem;
      padding-bottom: 0;
      margin-bottom: 0;
      color: whitesmoke   ;
@@ -21,22 +21,60 @@
      padding-left:14vw;
      padding-right:14vw;
 
+     color: white;
      line-height: 1.8;
      
 }
-
-.Odd__About{
-     justify-content: left;
-     align-items: left;
-     color: white;
-}
-.Even__About{
-     justify-content: right;
-     align-items: right;
-     text-align: right;
-     color: #ee044a;
+.pictureOfMe{
+     height: 350px;
+     width: 350px;
+     margin-left: 30px;
+     border-radius: 175px;
 }
 p{
      width: 45vw;
      font-size: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+     .pictureOfMe{
+         visibility: hidden;
+         height: 0;
+         width: 0;
+         
+     }
+     .Name__And__Title h1 {
+          display: flex;
+          justify-content: center;
+          font-size: 4rem;
+          margin-top: 1.1rem;
+          padding-bottom: 0;
+          margin-bottom: 0;
+          color: whitesmoke   ;
+     }
+     .Name__And__Title h2 {
+          display: flex;
+          justify-content: center;
+          color: #ee044a;
+          font-size: 1.5rem;
+     }
+     
+     .About__Me{
+          font-size: large;
+          display: flex;
+          padding-left:10vw;
+          padding-right:10vw;
+          color: white;
+          line-height: 1.8;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          
+     }
+     
+     p{
+          width: 300px;
+          font-size: 20px;
+     }
+   }
+

@@ -1,29 +1,40 @@
-.Footer{
+.Footer {
      width: calc(100vw-3px);
      background-color: rgba(128, 128, 128, 0.397);
      margin-top: 40px;
      display: flex;
-     justify-content:space-between
-}
-.Socials__Message{
-     font-size: 70px;
-     position: relative;
-     padding-top: 0 ;
-     padding-bottom: 0;
-     display:inline-block;
-     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     color: white;
-     padding-left: 40px;
-     opacity: 1;
-     width: auto;
-     align-items: center;
+     justify-content: right;
+
 }
 
-.Footer > div > div{
+.Socials__Button {
      padding-top: 15px;
-     padding-bottom: 10px;
      padding-right: 60px;
-     display:inline-block;
+     display: inline-block;
      opacity: 1;
      width: auto;
+}
+
+.Socials__Image {
+     height: 32px;
+     width: 32px;
+     padding: 0;
+     margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+     .Footer {
+          width: 100%;
+          justify-content: space-evenly;
+          margin: 0;
+          padding: 0;
+     }
+
+     .Socials__Container{
+          width: 100%;
+     }
+     .Socials__Button {
+          padding-left: 30px;
+          padding-right: 30px;
+     }
 }

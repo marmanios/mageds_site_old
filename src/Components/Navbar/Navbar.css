@@ -22,6 +22,23 @@
      top: 3px;
      
 }
-
+@media only screen and (max-width: 600px) {
+     .Navbar{
+          display: flex;
+          width: 100vw;
+          justify-content: space-around;
+          margin-right: 3vw;
+     }
+     .Nav__Button {
+          height: 60px;
+          border: none;
+          margin-left: 0.6vw;
+          font-size: large;
+          font-size: 1.7rem;
+          padding: 1.5vh;
+          background-color: transparent;
+          color: #C3073f;
+     }
+   }
 
 
