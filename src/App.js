@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css"
+import React,{useState,useEffect} from "react";
+import AboutMe from "./Components/AboutMe/AboutMe";
+import Navbar from "./Components/Navbar/Navbar";
+import Projects from "./Components/Projects/Projects"
+//import Skills from "./Components/Skills/Skills"
+// {currentPage === "Skills" && <Skills></Skills>}
+import Footer from "./Components/Footer/Footer";
 function App() {
+  const [currentPage, changePage] = useState("Home");
+  useEffect(() => { document.body.style.backgroundColor = '#1A1A1D' }, [])
+
+  const changeDisplay = (newState) =>{
+    changePage(newState)
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar changeDisplay={changeDisplay}></Navbar>
+      {currentPage === "Home" && <AboutMe></AboutMe>}
+      {currentPage === "Projects" && <Projects></Projects>}
+      <Footer></Footer>
     </div>
   );
 }

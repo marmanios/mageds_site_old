@@ -1,0 +1,27 @@
+.Navbar{
+     display: flex;
+     justify-content: right;
+     margin-right: 3vw;
+}
+.Nav__Button {
+     height: 60px;
+     border: none;
+     margin-left: 0.6vw;
+     padding-right: 4vw;
+     font-size: large;
+     font-size: 2.0rem;
+     padding: 1.5vh;
+     background-color: transparent;
+     color: #C3073f;
+}
+
+.Nav__Button:hover {
+     border-bottom: 3px solid #C3073f;
+     transition-duration: 200ms;
+     transition-property: border,top;
+     top: 3px;
+     
+}
+
+
+

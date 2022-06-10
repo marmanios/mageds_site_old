@@ -1,0 +1,9 @@
+.EmailPopUp{
+     position: absolute;
+     background-color: #C3073f;
+     width: 200px;
+     height: 100px;
+     top: 6vh;
+     right: calc(45vw);
+     border-radius: 30px;
+}
