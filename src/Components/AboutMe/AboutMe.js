@@ -13,7 +13,7 @@ const AboutMe = () => {
                          Hello and thanks for coming to my website! I am Maged Armanios.
                          I am currently a third year student at McMaster University and am aiming to become a software developer in the future.
                     </p>
-                    <img style={{width:"270px",height:"270px",borderRadius:"20px",marginLeft:"30px"}} alt="head shot of me" src={picOfMe}></img>
+                    <img style={{width:"270px",height:"270px",borderRadius:"20px",marginLeft:"80px"}} alt="head shot of me" src={picOfMe}></img>
                     </div>
                <div className='About__Me Even__About'>
                     <p>
