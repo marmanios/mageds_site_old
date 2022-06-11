@@ -4,6 +4,10 @@
      margin-top: 40px;
      display: flex;
      justify-content: right;
+     position: fixed;
+     bottom: 0;
+     right: 0;
+     width: 100%;
 
 }
 
