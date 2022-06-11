@@ -66,6 +66,8 @@ const Projects = () => {
                     </div>
 
                } handleClose={togglePop}></ProjectPopup>}
+               <br></br>
+               <br></br>
 
           </div>
      );

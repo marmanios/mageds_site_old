@@ -32,6 +32,9 @@ const AboutMe = () => {
                          Please feel free to reach out to me through any of the links in the footer :)
                     </p>
                </div>
+               <br></br>
+               <br></br>
+               <span></span>
           </div>
      );
 

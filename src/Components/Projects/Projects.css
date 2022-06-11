@@ -80,6 +80,10 @@ h1 {
      .Project__Button{
           font-size: 2.1rem;
      }
+     .Project__Container{
+          margin-left: 15vw;
+          margin-right: 15vw;
+     }
      .Project__Container h2{
           font-size: 1.0rem;
         

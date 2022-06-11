@@ -1,6 +1,6 @@
 .Navbar{
      display: flex;
-     justify-content: right;
+     justify-content: left;
      margin-right: 3vw;
 }
 .Nav__Button {
@@ -11,14 +11,15 @@
      font-size: large;
      font-size: 2.0rem;
      padding: 1.5vh;
+     transition: 300ms;
      background-color: transparent;
      color: #C3073f;
 }
 
 .Nav__Button:hover {
      border-bottom: 3px solid #C3073f;
-     transition-duration: 200ms;
-     transition-property: border,top;
+     font-size: 2.2rem;
+     transition-property: all;
      top: 3px;
      
 }
