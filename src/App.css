@@ -3,7 +3,11 @@
      min-height: calc(100vh-3px);
      border: 3px;
      box-sizing: border-box;
+}
 
+.things{
+  position: relative;
+  z-index: 10000;
 }
 
 html,
@@ -12,4 +16,9 @@ body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
   font-weight:400;
+}
+
+.particles{  
+  position: fixed;
+  z-index: -1000;
 }
